@@ -243,7 +243,7 @@ p {
 }
 
 .theme-btn:hover {
-  background-color: rgba(0, 173, 181, 0.7);
+  background-color: rgba(41, 53, 84, 2);
   color: #fff;
   border-color: transparent;
   -webkit-box-shadow: 0 10px 25px rgba(0, 173, 181, 0.3);
@@ -270,7 +270,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: #88640d;
+  background: rgba(41, 53, 84, 2);
 }
 
 @keyframes animation1 {
@@ -1286,7 +1286,7 @@ p {
 
 @media (max-width: 767px) {
   .header {
-    padding-top: 86px;
+    padding-top: 80px;
   }
 }
 
@@ -1789,8 +1789,8 @@ p {
 
 .service-section .service-item {
   border-radius: 20px;
-  -webkit-box-shadow: 0 10px 35px rgba(0, 173, 181, 0.14);
-  box-shadow: 0 10px 35px rgba(0, 173, 181, 0.14);
+  -webkit-box-shadow: 0 10px 35px rgba(0, 53, 84, 0.2);
+  box-shadow: 0 10px 35px rgba(0, 53, 84, 0.2);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   position: relative;
@@ -1838,7 +1838,7 @@ p {
   top: 0;
   left: 0;
   border-radius: 20px;
-  background: rgba(0, 173, 181, 0.91);
+  background: rgba(41, 53, 84, 0.8);
 }
 
 .service-section .service-item:hover .service-icon svg path {
@@ -2005,7 +2005,7 @@ p {
 }
 
 .faq-section .faq-content-wrapper .faq-wrapper .faq-item {
-  background: #ab8013;
+  background: #36416e;
   border-radius: 10px;
 }
 
@@ -2298,4 +2298,9 @@ p {
 .footer .copyright-area a:hover {
   color: #ab7f12;
 }
+
+nav ul ul li a {
+  width: 15px;
+}
+
 /*# sourceMappingURL=main.css.map */
