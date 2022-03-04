@@ -1581,12 +1581,12 @@ p {
 
 /* ====== Blog Details CSS ====== */
 .ud-blog-details {
-  padding-top: 120px;
+  padding-top: 0px;
 }
 
 @media (max-width: 767px) {
   .ud-blog-details {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 
@@ -1741,6 +1741,7 @@ p {
   font-size: 35px;
   line-height: 50px;
   margin-bottom: 35px;
+  padding-top: 10px;
 }
 
 @media (max-width: 767px) {
