@@ -1690,15 +1690,35 @@ p {
 
 @media (max-width: 767px) {
   .slider-section .single-slider .slider-content h1 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider-section .single-slider .slider-content P {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider-section .single-slider .slider-content a {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider-section .single-slider .theme-btn {
+    padding: px 20px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .slider-section .single-slider .slider-content h1 {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 30px;
+    line-height: 40px;
   }
 }
 
@@ -2117,9 +2137,16 @@ p {
   }
 }
 
-.subscribe-section .subscribe-wrapper .support h2 span {
+.subscribe-section .subscribe-wrapper .support h3 {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+.subscribe-section .subscribe-wrapper .support h3 span {
   color: #ab7f12;
   display: block;
+  font-size: 30px;
+  font-style: normal;
 }
 
 .subscribe-section .subscribe-wrapper .subscribe-links ul li {
